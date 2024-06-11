@@ -1,10 +1,11 @@
-
+import route from '../assets/route.png'
 import React from "react";
 
 const Navbar = () => {
     return <div>
         <header className="flex justify-between items-center p-5 bg-white text-black">
             <div className="flex items-center pl-9">
+                <img src={route} className='h-16 w-16'  />
                 <button  className="text-4xl font-bold pt-5 pb-5">Touring</button>
             </div>
             <nav>
@@ -17,7 +18,6 @@ const Navbar = () => {
 
         </header>
     </div>
-
 }
 
 export default Navbar;
