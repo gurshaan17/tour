@@ -1,7 +1,9 @@
+import Navbar from "../components/Navbar";
 
-
-const Landingpage = () => {
-
+const LandingPage = () => {
+    return <div>
+        <Navbar/>
+    </div>
 }
 
-export default Landingpage;
+export default LandingPage;
